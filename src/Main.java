@@ -5,6 +5,7 @@ public class Main {
         Animale baubau = new Animale("Canis", "Pastore Tedesco", "bau", "corre");
 
         System.out.println(Barboncino);
+        System.out.println();
         System.out.println(baubau);
     }
 }
