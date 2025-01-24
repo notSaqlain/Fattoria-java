@@ -9,6 +9,11 @@ public class Cane extends Animale implements Nutrimento {
         this.peso = 1.0;
     }
 
+    public String mangia() {
+        peso += 0.5;
+        return "Il cane ha mangiato e ora pesa " + peso + " kg";
+    }
+
 
     @Override
     public String toString() {
