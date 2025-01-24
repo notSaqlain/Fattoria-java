@@ -1,4 +1,4 @@
-public class Animale {
+public abstract class Animale {
 
     private String genere;
     private String specie;
