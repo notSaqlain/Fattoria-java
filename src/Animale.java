@@ -1,9 +1,10 @@
-public abstract class Animale {
+public abstract class Animale implements Nutrimento {
 
     private String genere;
     private String specie;
     private String verso;
     private String movimento;
+    protected double peso;
 
     public Animale(String genere, String specie, String verso, String movimento) {
         this.genere = genere;
