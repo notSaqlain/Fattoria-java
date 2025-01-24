@@ -24,14 +24,14 @@ public class Animale {
     }
 
     public String getVerso() {
-        return "";
+        return verso;
     }
 
     public String getSpecie() {
-        return "";
+        return specie;
     }
 
     public String getMoimento() {
-        return "";
+        return movimento;
     }
 }
